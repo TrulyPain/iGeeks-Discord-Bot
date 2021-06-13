@@ -18,4 +18,4 @@ client.on('guildMemberAdd', member => {
     client.channels.cache.get('850033338579550242').send('Welcome to iGeeks and thanks for joining :fire: :computer: ' + member.toString() +' Please read the rules');
   });
 
-client.login('ODUwMDQxNTkyMTU2Mzg5NDY2.YLj87A.rm69kKc_C_PFpWpzRLlBD1R_1bs');
+client.login(process.env.discord-key);
